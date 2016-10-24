@@ -72,6 +72,7 @@ Run this command in your shell to install meteor `curl https://install.meteor.co
 
 ```bash
 sudo apt-get install zsh
+zsh
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 setopt EXTENDED_GLOB
 for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
